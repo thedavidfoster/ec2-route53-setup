@@ -1,4 +1,3 @@
-AWS_ACCESS_KEY_ID="<Your access key ID>"
-AWS_SECRET_ACCESS_KEY="<Your secret access key>"
-ZONE="<The name of your subdomain>"
+ZONE="<The name of your domain>"
+SUB="<The name of your sub-domain>"
 TTL="600"
