@@ -2,6 +2,9 @@
 
 wget https://github.com/barnybug/cli53
 
+mv cli53 /usr/local/cli53
+ln -s /usr/local/cli53 /usr/bin/cli53
+
 mkdir /etc/route53
 chmod 700 /etc/route53
 wget https://raw.github.com/thedavidfoster/ec2-route53-setup/master/config.sh
