@@ -1,9 +1,9 @@
 #!/bin/bash
 
-wget https://github.com/barnybug/cli53
-
-mv cli53 /usr/local/cli53
-ln -s /usr/local/cli53 /usr/bin/cli53
+wget https://raw.github.com/barnybug/cli53/master/scripts/cli53
+chmod 700 cli53
+mv cli53 /usr/local/bin/cli53
+ln -s /usr/local/bin/cli53 /usr/bin/cli53
 
 mkdir /etc/route53
 chmod 700 /etc/route53
